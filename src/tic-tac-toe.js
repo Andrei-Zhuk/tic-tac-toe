@@ -39,7 +39,7 @@ class TicTacToe {
     }
 
     getFieldValue(rowIndex, colIndex) {
-
+        return this._playGround[rowIndex][colIndex];
     }
 }
 
